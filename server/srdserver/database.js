@@ -9,7 +9,7 @@ function Database(){
 			host: 'localhost',
 			user: 'root',
 			password: '', // NEED TO FILL IN
-			database: 'srd'  // NEED TO FILL THAT TOO :)
+			database: 'web_apps'  // NEED TO FILL THAT TOO :)
 		});
 	};
 	// Establish the connection with the database

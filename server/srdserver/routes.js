@@ -3,8 +3,8 @@ var httpVerbs = require('./models/httpVerbs');
 module.exports = {
   configure: function(app) {
     // Get Verb
-    app.get('/api/:id', function(req, res) {
-      httpVerbs.get(req.params.id, res);
+    app.get('/api/:tablename', function(req, res) {
+      httpVerbs.get(req.params.tablename, res);
     });
   }
 };
